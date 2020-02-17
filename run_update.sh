@@ -1,3 +1,8 @@
+sudo yum -y update;
+conda update -y --all;
+jupyter labextension install --no-build @ijmbarr/jupyterlab_spellchecker;
+jupyter labextension install --no-build @pyviz/jupyterlab_pyviz;
+jupyter lab build;
 pip install --upgrade bebi103;
 pip install --upgrade bokeh-catplot;
 wget -P ~/data/ https://s3.amazonaws.com/bebi103.caltech.edu/data/rasson_dissociation_anisotropy.csv;
