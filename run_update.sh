@@ -4,7 +4,7 @@ jupyter labextension install --no-build @ijmbarr/jupyterlab_spellchecker;
 jupyter labextension install --no-build @pyviz/jupyterlab_pyviz;
 jupyter lab build;
 pip install --upgrade bebi103;
-pip install --upgrade bokeh-catplot;
+pip install --upgrade iqplot;
 wget -P ~/data/ https://s3.amazonaws.com/bebi103.caltech.edu/data/rasson_dissociation_anisotropy.csv;
 wget -P ~/data/ https://s3.amazonaws.com/bebi103.caltech.edu/data/rasson_competition_anisotropy.csv;
 wget -P ~/data/ https://s3.amazonaws.com/bebi103.caltech.edu/data/ant_traffic.txt;
