@@ -12,5 +12,5 @@ pip install --upgrade bebi103;
 python -c "import cmdstanpy; cmdstanpy.install_cmdstan()";
 
 # Get new data sets
-wget https://s3.amazonaws.com/bebi103.caltech.edu/data/naganathan_explanted_somite_anisotropy.csv;
+wget https://s3.amazonaws.com/bebi103.caltech.edu/data/naganathan_explanted_somite_deformability.csv;
 mv naganathan_explanted_somite_anisotropy.csv $HOME/data/;
