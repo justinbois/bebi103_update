@@ -7,6 +7,7 @@ conda update -y --all;
 # Package updates; keep ArviZ at 0.11.1
 pip install --upgrage arviz==0.11.1 cmdstanpy;
 pip install --upgrade bebi103;
+pip install --upgrade iqplot;
 
 # Update cmdstan
 python -c "import cmdstanpy; cmdstanpy.install_cmdstan()";
