@@ -21,3 +21,6 @@ mv wolfenden_arrhenius.csv $HOME/data/;
 
 wget https://s3.amazonaws.com/bebi103.caltech.edu/data/roeschinger_growth_rate_data.csv;
 mv roeschinger_growth_rate_data.csv $HOME/data/;
+
+wget https://s3.amazonaws.com/bebi103.caltech.edu/data/chartier_cell_volume.csv;
+mv rchartier_cell_volume.csv $HOME/data/;
