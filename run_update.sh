@@ -4,6 +4,9 @@ sudo yum -y update;
 # Update Python packages
 conda update -y --all;
 
+# Revert Bokeh to 2.2.2 to enable HoloViews and Panel to work
+conda install -y bokeh=2.2.2;
+
 # Package updates; keep ArviZ at 0.11.1
 pip install --upgrage arviz==0.11.1 cmdstanpy;
 pip install --upgrade bebi103;
